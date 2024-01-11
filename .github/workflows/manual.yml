@@ -15,4 +15,4 @@ jobs:
 
     steps:
     - name: Send greeting
-      run: echo "Hello ${{ inputs.name }} - ${{secrets.TEST}}"
+      run: echo "Hello ${{ inputs.name }} - ${{secrets.TEST}} - ${{secrets.TEST2}}"
